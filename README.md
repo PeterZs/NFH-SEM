@@ -1,6 +1,7 @@
 # NFH-SEM: Neural Field-Based 3D Surface Reconstruction of Microstructures from Multi-Detector Signals in Scanning Electron Microscopy
+## CVPR 2026 Oral
 
-## [Paper](https://arxiv.org/abs/2508.04728) | [Test Data]()
+## [Paper](https://arxiv.org/abs/2508.04728) | [Video](https://youtu.be/ionPVaKpMvU) | [Dataset](https://www.dropbox.com/scl/fi/wk95ejq89zznum53en4hn/NFH-SEM.rar?rlkey=vy5hw4yj4g94zadvrffo34nhx&st=yaanca1x&dl=0)
 
 **In this repository, we provide NFH-SEM, an SEM 3D surface reconstruction framework designed to reconstruct complex microstructures from multi-view, multi-detector 2D SEM images.**
 
@@ -12,7 +13,7 @@
 ## NFH-SEM Dataset
 We collected a multi-view, multi-detector SEM dataset covering various samples with diverse geometric characteristics. The dataset includes complex microstructures fabricated using the two-photon lithography (TPL) technique, as well as peach pollen and SiC particle surfaces. The data was acquired using a [ZEISS Gemini 560 SEM system](https://www.zeiss.com/microscopy/en/products/sem-fib-sem/sem/geminisem-family.html). Each sample consists of 37 scans from different viewing angles. For each viewpoint, one secondary electron (SE) image was captured using an Everhart-Thornley detector, and four backscattered electron (BSE) images were acquired using a pneumatically retractable BSE detector.
 
-To the best of our knowledge, this is the first multi-detector SEM dataset for 3D surface reconstruction of microstructures. The complete dataset will be released after the formal publication of our paper, and we hope it will encourage broader participation from the computer vision community in advancing SEM 3D reconstruction research. A [test example]() is available for download. You can place it in the **load/** folder.
+To the best of our knowledge, this is the first multi-detector SEM dataset for 3D surface reconstruction of microstructures. The complete dataset will be released after the formal publication of our paper, and we hope it will encourage broader participation from the computer vision community in advancing SEM 3D reconstruction research. Our [dataset](https://www.dropbox.com/scl/fi/wk95ejq89zznum53en4hn/NFH-SEM.rar?rlkey=vy5hw4yj4g94zadvrffo34nhx&st=yaanca1x&dl=0) is available for download. You can place it in the **load/** folder.
 
 <p align="center">
 <img src='imgs/wukong.gif' width="49%"> <img src='imgs/pollen.gif' width="49%">
