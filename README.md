@@ -1,7 +1,7 @@
 # NFH-SEM: Neural Field-Based 3D Surface Reconstruction of Microstructures from Multi-Detector Signals in Scanning Electron Microscopy
 ## CVPR 2026 Oral
 
-## [Paper](https://arxiv.org/abs/2508.04728) | [Video](https://youtu.be/ionPVaKpMvU) | [Dataset](https://www.dropbox.com/scl/fi/wk95ejq89zznum53en4hn/NFH-SEM.rar?rlkey=vy5hw4yj4g94zadvrffo34nhx&st=yaanca1x&dl=0)
+## [Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Chen_Neural_Field-Based_3D_Surface_Reconstruction_of_Microstructures_from_Multi-Detector_Signals_CVPR_2026_paper.html) | [arXiv](https://arxiv.org/abs/2508.04728) | [Video](https://youtu.be/ionPVaKpMvU) | [Dataset](https://www.dropbox.com/scl/fi/wk95ejq89zznum53en4hn/NFH-SEM.rar?rlkey=vy5hw4yj4g94zadvrffo34nhx&st=yaanca1x&dl=0)
 
 **In this repository, we provide NFH-SEM, an SEM 3D surface reconstruction framework designed to reconstruct complex microstructures from multi-view, multi-detector 2D SEM images.**
 
@@ -85,14 +85,12 @@ If you are using a different type of detector, it can be easily adapted by modif
 ## Citation
 If you find our paper, code or dataset useful in your own research, please cite us:
 ```
-@misc{chen2025neuralfieldbased3dsurface,
-      title={Neural Field-Based 3D Surface Reconstruction of Microstructures from Multi-Detector Signals in Scanning Electron Microscopy}, 
-      author={Shuo Chen and Yijin Li and Xi Zheng and Guofeng Zhang},
-      year={2025},
-      eprint={2508.04728},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2508.04728}, 
+@inproceedings{chen2026neural,
+  title={Neural Field-Based 3D Surface Reconstruction of Microstructures from Multi-Detector Signals in Scanning Electron Microscopy},
+  author={Chen, Shuo and Li, Yijin and Zheng, Xi and Zhang, Guofeng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={7266--7277},
+  year={2026}
 }
 ```
 
